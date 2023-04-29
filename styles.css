@@ -1,0 +1,99 @@
+
+/* 
+color palette
+#663310
+#88849F
+#110F11
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color:  #88849F;
+    background:  #110F11;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #663310;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin: 0 0 0 0;    
+    background:  url(https://rare-gallery.com/mocahbig/39488-Gotham-City-NightGotham-City-HD-Wallpaper.png);
+    background-size: cover;
+}
+
+#hero-title, #hero-sub-title {    
+    background:   #110F11 ;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid #663310;
+}
+
+#hero-title {
+    max-width: 900px;
+    margin: 20px 0;
+}
+
+.section {
+    height: 400px;
+    margin: 20px 0;
+}
+
+.activities {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.act-header {
+    margin: 25px 0;
+}
+
+.guide {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    height: 500px;
+    color: #110F11;
+    background:  #88849F ;
+}
+
+.card {    
+    margin: 25px auto;
+    height: 200px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #110F11;
+    border-radius: 5px;
+    background: #663310;
+}
+
+.card h4 {
+    font-style: italic;
+}
+
+.profile {
+    border: 2px solid #110F11;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
